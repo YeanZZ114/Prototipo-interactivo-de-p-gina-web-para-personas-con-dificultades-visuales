@@ -19,6 +19,7 @@ body{
     padding: 20px;
     margin-right: 0%;
 }
+
 .redirections {
     margin-top: 6%;
     width: 60%;
@@ -182,4 +183,54 @@ body{
     font-family: "Roboto-Condensed-Bold";
     border-radius: 32.5px;
     width: 70%;
+}
+.sobre-nos {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.derecha {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.derecha h1{
+    font-size: 72px;
+    font-family: "Roboto-Condensed-Bold";
+    color: var(--color-14);   
+}
+
+.derecha p {
+    font-size: 36px;
+    font-family: "Roboto-Condensed-Regular";
+    color: var(--color-14);
+    width: 60%;
+}
+
+.izquierda {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 15%;
+    
+}
+.izquierda h1 {
+    font-size: 96px;
+    font-family: "Roboto-Condensed-Regular";
+    color: var(--color-14);
+    margin-top: -5%;
+}
+.images-iz {
+    display: flex;
+    flex-direction: row;
+}
+.gotita {
+    width: 15%;
+    margin-left: -5%;
+}
+.blinds {
+    margin-left: -23%;
 }
